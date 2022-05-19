@@ -34,7 +34,7 @@ const Select = styled.select`
   margin-right: 20px;
   ${mobile({ margin: "10px 0px" })}
 `;
-const Option = styled.option``;
+const option = styled.option``;
 
 
 
@@ -48,33 +48,33 @@ const ProductList = () => {
         <Filter>
           <FilterText>Filter Products:</FilterText>
           <Select>
-            <Options disabled selected>
+            <option disabled selected>
               Color
-            </Options>
-            <Options>White</Options>
-            <Options>Black</Options>
-            <Options>Red</Options>
-            <Options>Blue</Options>
-            <Options>Yellow</Options>
-            <Options>Green</Options>
+            </option>
+            <option>White</option>
+            <option>Black</option>
+            <option>Red</option>
+            <option>Blue</option>
+            <option>Yellow</option>
+            <option>Green</option>
           </Select>
           <Select>
-            <Options disabled selected>
+            <option disabled selected>
               Size
-            </Options>
-            <Options>XS</Options>
-            <Options>S</Options>
-            <Options>M</Options>
-            <Options>L</Options>
-            <Options>XL</Options>
+            </option>
+            <option>XS</option>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+            <option>XL</option>
           </Select>
         </Filter>
         <Filter>
           <FilterText>Sort Products:</FilterText>
           <Select>
-            <Options selected>Newest</Options>
-            <Options>Price (asc)</Options>
-            <Options>Price (desc)</Options>
+            <option selected>Newest</option>
+            <option>Price (asc)</option>
+            <option>Price (desc)</option>
           </Select>
         </Filter>
       </FilterContainer>
